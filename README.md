@@ -67,14 +67,9 @@ cd svi-sidewalk-downloader
 ### 2. (Recommended) Create a virtual environment
 
 ```bash
-# Create
-python -m venv .venv
-
-# Activate — macOS / Linux
-source .venv/bin/activate
-
-# Activate — Windows
-.venv\Scripts\activate
+# Create a new python environment (3.10+)
+conda create -n sidewalk-download python
+conda activate sidewalk-download
 ```
 
 ### 3. Install dependencies
